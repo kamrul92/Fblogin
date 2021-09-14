@@ -1,0 +1,233 @@
+
+/*---common css---*/
+
+body{
+    margin: 0;
+
+}
+/*==================
+main-area start
+====================*/
+#main-area{
+    margin: 0;
+    padding: 0;
+    background:#F0F2F5;
+    overflow: hidden;
+    padding: 135px 0;
+}
+.container{
+    
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+    
+
+.left-area{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.left-area .facebook-help{
+    margin-left: 10px;
+    
+    
+}
+.left-area .facebook-help img{
+    width: 300px;
+    
+    
+}
+.left-area .facebook-help p{
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #1C1E21;
+    margin: -2px 0 0 30px;
+    
+}
+.right-area{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+   
+   
+
+}
+
+.right-area .login-area{
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 7px;
+    text-align: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   width: 80%;
+    
+
+}
+
+.right-area .login-area input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.right-area .login-area input[type="text"],
+.right-area .login-area input[type="password"]{
+    padding: 15px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    border: 1px solid #C3C6CA;;
+}
+::placeholder{
+    color: #C3C6CA;
+}
+.right-area .login-area input[type="text"]:focus,
+.right-area .login-area input[type="password"]:focus{
+    
+    border: 1px solid #1877F2;
+}
+.right-area .login-area input[type="submit"]{
+    background-color: #1877F2;
+    color: #ffffff;
+    padding: 15px 0;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: sans-serif;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+.right-area .login-area input[type="submit"]:hover{
+    background-color: #166FE5;
+}
+
+
+.right-area .login-area .forgotLink{
+    text-decoration: none;
+    color: #1877F2;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.right-area .login-area .forgotLink:hover{
+    text-decoration: underline;
+    
+}
+
+.right-area .login-area .line{
+    border-top: 1px solid #DADDE1;
+    margin: 20px 0;
+    
+}
+
+.right-area .login-area .AccountLink{
+    background-color: #42B72A;
+    padding: 15px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.right-area .login-area .AccountLink:hover{
+    background-color: #36A420;
+    
+}
+
+#main-area .right-area .creat-area{
+    text-align: center;
+
+}
+#main-area .right-area .creat-area a{
+    text-decoration: none;
+    color:#1C1E21;
+    font-weight: bold;
+
+}
+#main-area .right-area .creat-area a:hover{
+    text-decoration: underline;
+    
+
+}
+#main-area .right-area .creat-area p{
+    color: #4a4a4b;
+    font-size: 17px;
+    font-weight: 400;
+    width: 90%;
+
+}
+/*==================
+main-area end
+====================*/
+
+
+/*==================
+footer start
+====================*/
+.footer-area {
+    padding: 30px 0;
+}
+.footer-area .language ul li{
+    margin: 0;
+}
+.footer-area .language ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 5px;
+
+
+}
+.footer-area .language .line2{
+    border-top: 1px solid #DADDE1;
+    margin: 20px 0;
+}
+
+.footer-area .language ul li a{
+   text-decoration: none;
+   font-size: 12px;
+   color: #8A8D91;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.footer-area .language ul li a:hover{
+    text-decoration:underline;
+    
+ 
+ }
+
+.footer-area .custome-link ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 8px;
+
+}
+
+.footer-area .custome-link ul li a{
+    text-decoration: none;
+   font-size: 12px;
+   color: #8A8D91;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-area .custome-link ul li a:hover{
+    text-decoration: underline;
+   
+}
+
+.copyRight{
+    margin-left:48px;
+
+}
+.copyRight p{
+    color: #737373;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    
+}
+/*==================
+footer end
+====================*/
